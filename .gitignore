@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+venv313/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test images (keep structure but ignore test files)
+*.jpg
+*.jpeg
+*.png
+!BasicSR/assets/**/*.png
+!BasicSR/assets/**/*.jpg
+
+# Model checkpoints (too large for git)
+*.pth
+*.pt
+*.onnx
+*.ckpt
+*.safetensors
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*_masked.jpg
+*_masked.png
+
